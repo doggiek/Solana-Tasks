@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+target/
+
+# Build outputs
+dist/
+dist/*.js
+dist/*.js.map
+build/
+build/*.js
+build/*.js.map
+
+# Anchor/Solana
+.anchor/
+target/
+*.so
+
+# Environment variables
+.env
+.env.local
+.env.production
+**/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test ledger
+test-ledger/
+
+# Rust
+**/*.rs.bk

@@ -1,0 +1,31 @@
+{
+  "name": "solana-tasks",
+  "version": "1.0.0",
+  "description": "Solana Foundation Bootcamp Tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node task1.ts",
+    "task1": "ts-node task1.ts",
+    "build": "tsc",
+    "dev": "ts-node --watch"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "spl-token",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT"
+}
